@@ -1,10 +1,9 @@
 #!/usr/bin
-#Copyright 2021 KITHACK
-#Written by: Adrian Guillermo
-#Facebook: https://facebook.com/adrian.guillermo.22
-#Github: https://github.com/AdrMXR
+#Copyright 2024 Milki 1557
+#Written by: Milki1557_
+#Telegram: Milki1557
 
-#Update KitHack
+# Installer Milk Tools
 
 # colors
 red='\e[1;31m'
@@ -32,9 +31,9 @@ echo -e "$yellow |    |  / |  |_> > /_/ | / __ \|  | \  ___/               "
 echo -e "$yellow |______/  |   __/\____ |(____  /__|  \___  > /\  /\  /\   "
 echo -e "$yellow           |__|        \/     \/          \/  \/  \/  \/   "
 echo -e "                                                                  "
-echo -e "$orange                    Update KitHack v1.3.2                  "
+echo -e "$orange                    Update Tools   v1.0                    "
 echo -e "                                                                  "
-echo -e "$orange                         By:AdrMXR                         "
+echo -e "$orange                         Milk1557                          "
 
 # Check if there is an internet connection
 ping -c 1 google.com > /dev/null 2>&1
@@ -64,9 +63,9 @@ echo -e "$green[✔] Done."
 sleep 1.5
 fi
 
-# Updating KitHack...
+# Updating Tools ...
 echo -e "$yellow"
-echo -n [*] Actualizando KitHack desde Github...= ;
+echo -n [*] Please Contact Tele @Milki1557 = ;
 sleep 3 & while [ "$(ps a | awk '{print $1}' | grep $!)" ] ; do for X in '-' '\' '|' '/'; do echo -en "\b$X"; sleep 0.1; done; done 
 echo -e "$green"
 echo ""
@@ -78,7 +77,7 @@ sleep 1.5
 # Moving the files in the temporary directory again
 if [ -d $HOME/hacktemp ]; then
 echo -e "$yellow"
-echo -n [*] Moviendo archivos del directorio temporal...= ;
+echo -n [*] Proses Update ...= ;
 sleep 3 & while [ "$(ps a | awk '{print $1}' | grep $!)" ] ; do for X in '-' '\' '|' '/'; do echo -en "\b$X"; sleep 0.1; done; done 
 echo ""
 mv "$temp/output" "$path/output"
@@ -91,7 +90,7 @@ fi
 
 # Running installer
 echo -e "$yellow"
-echo -n [*] Ejecutando instalador...= ;
+echo -n [*] Proses Installer...= ;
 sleep 3 & while [ "$(ps a | awk '{print $1}' | grep $!)" ] ; do for X in '-' '\' '|' '/'; do echo -en "\b$X"; sleep 0.1; done; done 
 bash install.sh
 exit 

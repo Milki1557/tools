@@ -1,10 +1,9 @@
 #!/usr/bin
-#Copyright 2021 KITHACK
-#Written by: Adrian Guillermo
-#Facebook: https://facebook.com/adrian.guillermo.22
-#Github: https://github.com/AdrMXR
+#Copyright 2024 Milki 1557
+#Written by: Milki1557_
+#Telegram: Milki1557
 
-# Installer KitHack
+# Installer Milk Tools
 
 # Colors
 red='\e[1;31m'
@@ -32,9 +31,9 @@ echo -e "$yellow |   |   |  \___  \  |  |  / __ \|  |_|  |_\  ___/|  | \/       
 echo -e "$yellow |___|___|  /____  > |__| (____  /____/____/\___  >__|   /\  /\  /\  "
 echo -e "$yellow          \/     \/            \/               \/       \/  \/  \/  "
 echo -e "                                                                            "
-echo -e "$orange                        Setup KitHack v1.3.2                         "
+echo -e "$orange                        Setup Tools v1.0                             "
 echo -e "                                                                            "
-echo -e "$orange                             By:AdrMXR                               "
+echo -e "$orange                          By:Milki1557                               "
  
 # Check if there is an internet connection
 ping -c 1 google.com > /dev/null 2>&1
@@ -51,7 +50,7 @@ fi
 
 # Check dependencies
 echo -e $yellow
-echo -n [*] Checando dependencias...= ;
+echo -n [*] Sedang Penge checkan...= ;
 sleep 3 & while [ "$(ps a | awk '{print $1}' | grep $!)" ] ; do for X in '-' '\' '|' '/'; do echo -en "\b$X"; sleep 0.1; done; done 
 echo ""
 
@@ -173,7 +172,7 @@ fi
 
 # Configuring folders
 echo -e $yellow
-echo -n [*] Configurando carpetas...= ;
+echo -n [*] Proses 1...= ;
 sleep 3 & while [ "$(ps a | awk '{print $1}' | grep $!)" ] ; do for X in '-' '\' '|' '/'; do echo -en "\b$X"; sleep 0.1; done; done
 echo ""
 echo -e $green
@@ -279,7 +278,7 @@ fi
 
 # Installing requirements
 echo -e $yellow
-echo -n [*] Instalando requerimientos de python...= ;
+echo -n [*] Install Python...= ;
 sleep 3 & while [ "$(ps a | awk '{print $1}' | grep $!)" ] ; do for X in '-' '\' '|' '/'; do echo -en "\b$X"; sleep 0.1; done; done
 echo ""
 echo -e $green
@@ -292,15 +291,15 @@ pip3 install pgrep
 apt-get install libatk-adaptor libgail-common
 sudo apt-get purge fcitx-module-dbus
 
-# Shortcut for kithack
+# Shortcut for Milk
 echo -e $yellow
-echo -n [*] Configuración de acceso directo...= ;
+echo -n [*] Install curl...= ;
 sleep 3 & while [ "$(ps a | awk '{print $1}' | grep $!)" ] ; do for X in '-' '\' '|' '/'; do echo -en "\b$X"; sleep 0.1; done; done
 echo ""
 echo ""
-echo -e "$green[!] ¿Desea poder ejecutar kithack desde cualquier lugar de su terminal? (y/n)"
+echo -e "$green[!] Apa kamu yakin ingin melanjutkan? (y/n)"
 echo -e "$red"
-echo -ne "KitHack >> $default"
+echo -ne "root >> $default"
 read -r option
 case "$option" in
 
@@ -317,7 +316,7 @@ cp images/kithack.png /usr/share/icons/kithack.png
 sleep 2
 echo -e $green
 echo -e "╔──────────────────────────────────────────────────────────╗"
-echo -e "|[✔] Installation complete. Type 'kithack' to run the tool.|"
+echo -e "|[✔] Installation complete. Type 'Tools' to run the tool.|"
 echo -e "┖──────────────────────────────────────────────────────────┙"
 fi
 ;;

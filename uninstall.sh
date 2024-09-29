@@ -1,10 +1,9 @@
 #!/usr/bin
-#Copyright 2021 KITHACK
-#Written by: Adrian Guillermo
-#Facebook: https://facebook.com/adrian.guillermo.22
-#Github: https://github.com/AdrMXR
+#Copyright 2024 Milki 1557
+#Written by: Milki1557_
+#Telegram: Milki1557
 
-#Uninstaller KitHack 
+# Installer Milk Tools
 
 # Colors
 red='\e[1;31m'
@@ -32,9 +31,9 @@ echo -e "$yellow |    |  /   |  \  |   |  \\___ \   |  |  / __ \|  |_|  |__ "
 echo -e "$yellow |______/|___|  /__|___|  /____  > |__| (____  /____/____/  "
 echo -e "$yellow              \/        \/     \/            \/             "
 echo -e "$yellow                                                            "
-echo -e "$orange                     Setup KitHack v1.3.2                   "
+echo -e "$orange                     Setup KitHack v1.0                     "
 echo -e "                                                                   "
-echo -e "$orange                           By:AdrMXR                        "
+echo -e "$orange                          Milki1557                         "
 
 # Check if there is an internet connection
 ping -c 1 google.com > /dev/null 2>&1
@@ -85,6 +84,6 @@ echo -e "[✔]$path"
 sleep 0.2
 
 echo -e "╔───────────────────────╗"
-echo -e "|[✔] Uninstall complete.|"
+echo -e "|[✔]Uninstall complete |"
 echo -e "┖───────────────────────┙"
 exit 

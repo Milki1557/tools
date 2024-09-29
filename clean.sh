@@ -1,10 +1,9 @@
 #!/usr/bin
-#Copyright 2021 KITHACK
-#Written by: Adrian Guillermo
-#Facebook: https://facebook.com/adrian.guillermo.22
-#Github: https://github.com/AdrMXR
+#Copyright 2024 Milki 1557
+#Written by: Milki1557_
+#Telegram: Milki1557
 
-# Clean KitHack
+# Installer Milk Tools
 
 # Colors
 red='\e[1;31m'
@@ -54,9 +53,9 @@ output() {
 clear
 echo -e """ $red
 ╔──────────────────────────────────────────────╗
-| Con este script podrás eliminar el contenido |
-|     que te genera KitHack en las carpetas    |
-|               tools y output.                |                                            
+|                   DANGER                     |
+|                Tools Premium                 |
+|                  Milki1557_                  |                                            
 ┖──────────────────────────────────────────────┙"""
 echo -e "$green"
 echo -e "Seleccione la opción requerida."
@@ -64,7 +63,7 @@ echo -e "$default[1]""$yellow tools"
 echo -e "$default[2]""$yellow output"
 echo -e "$default[3]""$yellow all"
 echo -e "$red"
-echo -ne "KitHack >> $default"
+echo -ne "root >> $default"
 read -r option
 case "$option" in
 

